@@ -1,7 +1,7 @@
 function output = blur(img,w)
     input_image = imread(img);
     if (size(input_image,3)==3)
-        % Checking for the coloured image.
+        % Check for coloured image.
         output = zeros(size(input_image),'like',input_image);
         for k = 1:3
             output(:,:,k) = process_RGB_channel(input_image(:,:,k),w);
