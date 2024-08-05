@@ -32,6 +32,8 @@ blurred_image = blur('example_image.jpg', 2);
 imshow(blurred_image);
 ```
 
+---
+
 ### Code Explanation
 
 This MATLAB tool performs image blurring using a mean filter. The core function `blur(img, w)` takes an image file and a blur width `w` as input. 
