@@ -50,6 +50,25 @@ The blurring effect smooths the image by averaging pixel values, reducing high-f
 
 ---
 
+## 🖼️ Image Comparison
+
+Below is a side-by-side comparison of the original and blurred images (of the 🐐):
+
+<table>
+  <tr>
+    <td>
+      <strong>Original Image</strong><br>
+      <img src="https://github.com/utkarsh-kumar4/Image-Blurring-Tool/blob/main/messi.png" width="400" alt="Original Image">
+    </td>
+    <td>
+      <strong>Blurred Image</strong><br>
+      <img src="https://github.com/utkarsh-kumar4/Image-Blurring-Tool/blob/main/messi_blurred.png" width="400" alt="Blurred Image">
+    </td>
+  </tr>
+</table>
+
+---
+
 ### 🛠️ Dependencies
 - MATLAB (R2018b or later)
 
