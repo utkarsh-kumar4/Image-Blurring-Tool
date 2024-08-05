@@ -1,6 +1,10 @@
 ## 🖼️ Image Blurring Tool
 
-This MATLAB tool performs image blurring using a mean filter. It effectively processes both color (RGB) and grayscale images.
+## 👋 Hi there! Utkarsh here :p
+
+Welcome to the Image Blurring Tool! This project helps you easily blur images using a simple mean filter. Enjoy smoothening your images with just a few clicks!
+
+---
 
 ### 🌟 Features
 - **Blurring**: Smoothens images by averaging pixel values within a specified neighborhood.
@@ -10,16 +14,16 @@ This MATLAB tool performs image blurring using a mean filter. It effectively pro
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/image-blur-tool.git
+   git clone https://github.com/utkarsh-kumar4/Image-Blurring-Tool.git
    cd image-blur-tool
    ```
 
 2. **Run the Blur Function:**
    ```matlab
-   output = blur('path_to_image.jpg', blur_width);
+   output = blur('image_path[with extension]', blur_width);
    ```
 
-   - `path_to_image.jpg`: Path to the image file.
+   - `image_path[with extension]`: Path to the image file.
    - `blur_width`: Width of the blur filter (e.g., `1` for a 3x3 filter).
 
 ### 📷 Example
@@ -29,13 +33,23 @@ blurred_image = blur('example_image.jpg', 2);
 imshow(blurred_image);
 ```
 
-### 🔍 How It Works
+### Code Explanation
 
-1. **Load Image**: Reads the image file and processes each color channel separately if it's an RGB image.
-2. **Create Output**: Extracts a sub-matrix around each pixel based on the blur width.
-3. **Calculate Mean**: Computes the average of pixel values within the sub-matrix for blurring.
-4. **Handle Edges**: Adjusts sub-matrices for edge pixels to prevent out-of-bounds errors.
-5. **Display**: Converts the output to 8-bit format and displays it.
+This MATLAB tool performs image blurring using a mean filter. The core function `blur(img, w)` takes an image file and a blur width `w` as input. 
+
+1. **Loading the Image**: The image is read using `imread`. If the image is in color (RGB), it processes each channel (Red, Green, Blue) separately; otherwise, it processes the grayscale image directly.
+
+2. **Creating Output Image**: For each pixel in the image, a sub-matrix of size `(2w+1) x (2w+1)` centered on the pixel is extracted. 
+
+3. **Calculating Mean**: The mean of the pixel values within this sub-matrix is computed and assigned to the corresponding pixel in the output image.
+
+4. **Handling Edge Cases**: For pixels near the edges, the sub-matrix is adjusted to avoid going out of bounds.
+
+5. **Displaying the Result**: The processed image is converted to an 8-bit unsigned integer format and displayed using `imshow`.
+
+The blurring effect smooths the image by averaging pixel values, reducing high-frequency noise and details.
+
+---
 
 ### 🛠️ Dependencies
 - MATLAB (R2018b or later)
@@ -44,8 +58,4 @@ imshow(blurred_image);
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ### 👤 Author
-[Your Name](https://github.com/yourusername)
-
----
-
-Feel free to adjust the content to better fit your project or personal style!
+[Utkarsh Kumar](https://github.com/utkarsh-kumar4)
