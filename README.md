@@ -64,4 +64,4 @@ The blurring effect smooths the image by averaging pixel values, reducing high-f
 - MATLAB (R2018b or later)
 
 ## 👤 Author
-[Utkarsh Kumar](https://github.com/utkarsh-kumar4)
+[Utkarsh Kumar](https://github.com/utkarsh-kumar4) 👨🏻‍💻🎓
