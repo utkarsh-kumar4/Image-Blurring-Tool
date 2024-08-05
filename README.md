@@ -3,11 +3,11 @@
 ## 👋 Hi there! Utkarsh here :p
 Welcome to the Image Blurring Tool! This project helps you easily blur images using a simple mean filter. Enjoy smoothening your images with just a few clicks!
 
-### 🌟 Features
+## 🌟 Features
 - **Blurring**: Smoothens images by averaging pixel values within a specified neighborhood.
 - **Compatibility**: Handles both grayscale and RGB images seamlessly.
 
-### 🚀 Usage
+## 🚀 Usage
 
 1. **Clone the Repository:**
    ```bash
@@ -23,14 +23,14 @@ Welcome to the Image Blurring Tool! This project helps you easily blur images us
    - `image_path[with extension]`: Path to the image file.
    - `blur_width`: Width of the blur filter (e.g., `1` for a 3x3 filter).
 
-### 📷 Example
+## 📷 Example
 
 ```matlab
 blurred_image = blur('example_image.jpg', 2);
 imshow(blurred_image);
 ```
 
-### 👨🏻‍💻 Code Explanation
+## 👨🏻‍💻 Code Explanation
 
 This MATLAB tool performs image blurring using a mean filter. The core function `blur(img, w)` takes an image file and a blur width `w` as input. 
 
@@ -60,8 +60,8 @@ The blurring effect smooths the image by averaging pixel values, reducing high-f
   </tr>
 </table>
 
-### 🛠️ Dependencies
+## 🛠️ Dependencies
 - MATLAB (R2018b or later)
 
-### 👤 Author
+## 👤 Author
 [Utkarsh Kumar](https://github.com/utkarsh-kumar4)
