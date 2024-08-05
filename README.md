@@ -3,8 +3,6 @@
 👋 Hi there! Utkarsh here :p
 Welcome to the Image Blurring Tool! This project helps you easily blur images using a simple mean filter. Enjoy smoothening your images with just a few clicks!
 
----
-
 ### 🌟 Features
 - **Blurring**: Smoothens images by averaging pixel values within a specified neighborhood.
 - **Compatibility**: Handles both grayscale and RGB images seamlessly.
@@ -50,13 +48,8 @@ This MATLAB tool performs image blurring using a mean filter. The core function 
 
 The blurring effect smooths the image by averaging pixel values, reducing high-frequency noise and details.
 
----
-
 ### 🛠️ Dependencies
 - MATLAB (R2018b or later)
-
-### 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ### 👤 Author
 [Utkarsh Kumar](https://github.com/utkarsh-kumar4)
