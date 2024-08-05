@@ -50,16 +50,16 @@ The blurring effect smooths the image by averaging pixel values, reducing high-f
 
 ---
 
-## 🖼️ Image Comparison (In Pic: 🐐👑)
+## 🖼️ Image Comparison👑
 <table>
   <tr>
     <td>
       <strong>Original Image</strong><br>
-      <img src="https://github.com/utkarsh-kumar4/Image-Blurring-Tool/blob/main/messi.png" width="400" alt="Original Image">
+      <img src="https://github.com/utkarsh-kumar4/Image-Blurring-Tool/blob/main/messi.png" width="400" alt="Original Image of the 🐐👑">
     </td>
     <td>
       <strong>Blurred Image</strong><br>
-      <img src="https://github.com/utkarsh-kumar4/Image-Blurring-Tool/blob/main/messi_blurred.png" width="400" alt="Blurred Image">
+      <img src="https://github.com/utkarsh-kumar4/Image-Blurring-Tool/blob/main/messi_blurred.png" width="400" alt="Blurred Image of the 🐐">
     </td>
   </tr>
 </table>
