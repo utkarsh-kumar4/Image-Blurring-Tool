@@ -50,10 +50,7 @@ The blurring effect smooths the image by averaging pixel values, reducing high-f
 
 ---
 
-## 🖼️ Image Comparison
-
-Below is a side-by-side comparison of the original and blurred images (of the 🐐):
-
+## 🖼️ Image Comparison (In Pic: 🐐👑)
 <table>
   <tr>
     <td>
