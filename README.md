@@ -1,4 +1,4 @@
-## 🖼️ Image Blurring Tool
+# 🖼️ Image Blurring Tool
 
 ## 👋 Hi there! Utkarsh here :p
 Welcome to the Image Blurring Tool! This project helps you easily blur images using a simple mean filter. Enjoy smoothening your images with just a few clicks!
